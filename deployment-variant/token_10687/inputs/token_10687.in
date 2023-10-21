@@ -1,0 +1,17 @@
+// The program input for token_10687/src/main.leo
+[mint]
+balance: u32 = 100u32;
+
+[transfer]
+receiver: address = aleo1yn6halw6astkc8jsl88sukelef3e8xrawugfjtx7kjcuuxdm6spsdtc249;
+amount: u32 = 10u32;
+input: Token = Token {
+  owner: aleo102nryeeun6da4atqggu0q9aj5cqem7tpjzvce4nc88yzu29n8sgs9qelp7,
+  balance: 100u32,
+  _nonce: 661901642905281065575358583071347542160248627750537954509114007526888699661group
+};
+input2: Token= Token {
+  owner: aleo109mu6hluhwesmvxez67rwguedst6g8ylht0av6m3czk4u2rlmv9sejzchn.private,
+  balance: 100u32
+  _nonce: 6867547581248762329114057587227696746369343336039364834938155794639717785686group
+}
